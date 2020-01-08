@@ -2,6 +2,7 @@
 layout: post
 title: "Hello blog world!"
 description: "Welcome to my new blog, this year I want to start this projects and keep the world up to date what I'm working on."
+date:   2020-01-03 18:30:29 +0100
 img: workflow.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: []
