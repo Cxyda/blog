@@ -11,7 +11,7 @@ site-twitter: cxyda #if your site has a twitter account, enter it here
 # Author Settings
 author: Daniel Steegmüller # add your name
 author-img: daniel-steegmueller.jpg # add your photo
-about-author: I'm a professional games developer and 3D artist currently working at Innogames GmbH in Hamburg, Germany. # add description
+about-author: <br><b>Welcome!</b><br><br>I'm a professional games developer and 3D artist currently working at Innogames GmbH in Hamburg, Germany.<br><br><br>On this blog I will post code projects I'm working on in my spare time. # add description
 social-twitter: cxyda # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: cxyda # add your Github handle
