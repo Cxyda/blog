@@ -10,6 +10,6 @@ tags: []
 
 After I finished my studies I finally had the time to start a blog about my spare time projects. Those projects will be most likely about game **development** and **tooling**. I really hope that I find enough time and motivation to keep a constant content flow. I hope 2020 will be an awesome year full of coding, blogging and gaming.
 
-Thanks to Nielsen Ramon who created this awesome jekyll template. Check out the footer for more details. 
+Thanks to **[Artem Sheludko](https://www.patreon.com/artemsheludko)** who created this awesome jekyll template. Check out the footer for more details. 
 
 Have a great time!

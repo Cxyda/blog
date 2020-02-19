@@ -6,13 +6,13 @@ description: > # this means to ignore newlines until "baseurl:"
 permalink: ':title/'
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://cxyda.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+site-twitter: cxyda #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Daniel Steegmüller # add your name
 author-img: daniel-steegmueller.jpg # add your photo
-about-author: This is a test # add description
-social-twitter: # add your Twitter handle
+about-author: I'm a professional games developer and 3D artist currently working at Innogames GmbH in Hamburg, Germany. # add description
+social-twitter: cxyda # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: cxyda # add your Github handle
 social-linkedin: # add your Linkedin handle
