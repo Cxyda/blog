@@ -2,8 +2,8 @@
 layout: post
 title: "Writing a RayTracer from scratch"
 description: "In this series of blog posts I want to try to write a RayTracer from scratch using plain C#"
-thumb_image: "Recursive_raytrace_of_a_sphere.png"
-tags: [c#]
+thumb_image: "Recursive_raytrace_of_a_sphere.jpg"
+tags: [c#, ray tracing]
 ---
 
 Welcome to this new series where I want to write a small RayTracer from scratch. 
