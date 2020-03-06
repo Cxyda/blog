@@ -26,3 +26,5 @@ You are probably asking why I want to write it from scratch. Well, that's a vali
 Since I'm developing this project on *Windows* and *MacOS* and I wasn't able to find a simple multi platform canvas framework on my quick google search I decided to go even more low level for now and dump the result of my ray tracer into a **single image** file. The file-format The most simple file format I found for this was the **.ppm** file-format.
 
 For now the project is limited to roughly two weeks are my rare spare time. Therefore I'll keep it simple for now and implement the simplest ray tracing technique, the diffuse ray tracing. This technique allows soft shadows but no global illumination. Maybe I will extend it a later and implement path tracing.
+
+
