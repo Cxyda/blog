@@ -2,13 +2,22 @@
 layout: post
 title: "01 - Creating the core structs and classes"
 description: "In this series of blog posts I want to try to write a RayTracer from scratch using plain C#"
-img: "Recursive_raytrace_of_a_sphere.jpg"
+img: "rayTracer/Recursive_raytrace_of_a_sphere.jpg"
 fig-caption: "Image source: https://de.wikipedia.org/wiki/Raytracing"
+permalink: /raytracer/01/
 tags: [c#, ray tracing]
 ---
 
+---
 
-### Chapter 01
+> GitHub repository : [RayTracingDemo on GitHub](https://github.com/Cxyda/RayTracingDemo)
+>
+> Chapter project files : [Chapter 01](https://github.com/Cxyda/RayTracingDemo/commit/ba8242f9adb523fa11356774da350c726eee9dbb)
+
+---
+
+
+## Chapter 01
 
 In this chapter I will start to create all the core structs and classes we need for the ray tracer. For now I see structs like `Vector`, `Sphere`, `Color`, `Ray` and `Hit` as well as classes like `Scene`, `Camera` and `Light`. In this chapter we will implement only the first 3 which are `Vector`, `Sphere`, and `Color`.
 
@@ -162,10 +171,27 @@ public struct Vector
 {% endhighlight %}
 
 
-As you probably know, the cross-product is used to calculate the vector which is perpendicular to two other vectors. 
+As you probably know, the **[cross product](https://en.wikipedia.org/wiki/Cross_product)** is used to calculate the vector which is perpendicular to two other vectors. 
 We will need this later for our ray tracer.
 
-// TODO: explain dot-product
+The **[dot product](https://en.wikipedia.org/wiki/Dot_product)** returns the relationship of two vectors, namely the cosine of the angle between them. But we don't have to calculate the angle to get knowledge out of the dot product. There are actually three cases the dot-product can return:
+
+    1) a * b > 0    => the angle between the vector a and b is less than 90 degrees
+    2) a * b = 0    => the angle between vector a and b is equal to 90 degrees
+    3) a * b < 0    => the angle between vector a and b is greater than 90 degrees
+
+    (*where a and b are vectors; a * b is read as "the dot product of vectors a and b")
+
+<br>
+
+<figure>
+<img src="{{site.baseurl}}/assets/img/rayTracer/dot-product.png"
+     alt="The dot product cases"
+     style="margin-left: auto; margin-right: auto; display: block; width:50%" />
+<figcaption>Fig.1 - The different dot product cases.</figcaption>
+</figure>
+
+---
 
 #### The Color struct:
 
@@ -251,6 +277,8 @@ public struct Vector
 Ok! Now we implemented `Vector`s and `Color`s in our ray tracer, but we need some more data structures before we finally 
 can see something. For example some geometric objects!
 
+---
+
 #### The Sphere struct
 
 The first shape we implement will be the sphere. This is the simplest object when it comes to calculation of it's surface and intersections. 
@@ -278,3 +306,6 @@ Now we can represent spheres in our scenes. Wait! Scenes?
 
 
 That's it for this chapter. We did some ground work for our ray tracer. Next chapter we will implement the remaining structs and classes and see the first ray traced results!
+
+
+Read: [previous](/blog/raytracer/00/) | next

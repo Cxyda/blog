@@ -2,9 +2,16 @@
 layout: post
 title: "00 - Writing a RayTracer from scratch (Introduction)"
 description: "In this series of blog posts I want to try to write a RayTracer from scratch using plain C#"
-img: "Recursive_raytrace_of_a_sphere.jpg"
+img: "rayTracer/Recursive_raytrace_of_a_sphere.jpg"
 fig-caption: "Image source: https://de.wikipedia.org/wiki/Raytracing"
+permalink: /raytracer/00/
 tags: [c#, ray tracing]
+---
+
+---
+
+> GitHub repository : [RayTracingDemo on GitHub](https://github.com/Cxyda/RayTracingDemo)
+
 ---
 
 Welcome to this new series where I want to write a small RayTracer from scratch. 
@@ -28,4 +35,5 @@ Since I'm developing this project on *Windows* and *MacOS* and I wasn't able to 
 
 For now the project is limited to roughly two weeks are my rare spare time. Therefore I'll keep it simple for now and implement the simplest ray tracing technique, the diffuse ray tracing. This technique allows soft shadows but no global illumination. Maybe I will extend it a later and implement path tracing.
 
+Read: previous | [next](/blog/raytracer/01/)
 
