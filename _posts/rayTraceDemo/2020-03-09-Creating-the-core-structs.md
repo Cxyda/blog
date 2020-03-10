@@ -8,16 +8,8 @@ permalink: /raytracer/01/
 tags: [c#, ray tracing]
 ---
 
----
 
-> GitHub repository : [RayTracingDemo on GitHub](https://github.com/Cxyda/RayTracingDemo)
->
-> Chapter project files : [Chapter 01](https://github.com/Cxyda/RayTracingDemo/commit/ba8242f9adb523fa11356774da350c726eee9dbb)
-
----
-
-
-## Chapter 01
+## Chapter 01:
 
 In this chapter I will start to create all the core structs and classes we need for the ray tracer. For now I see structs like `Vector`, `Sphere`, `Color`, `Ray` and `Hit` as well as classes like `Scene`, `Camera` and `Light`. In this chapter we will implement only the first 3 which are `Vector`, `Sphere`, and `Color`.
 
@@ -307,5 +299,14 @@ Now we can represent spheres in our scenes. Wait! Scenes?
 
 That's it for this chapter. We did some ground work for our ray tracer. Next chapter we will implement the remaining structs and classes and see the first ray traced results!
 
+<br>
 
-Read: [previous](/blog/raytracer/00/) | next
+---
+
+> GitHub repository : [RayTracingDemo on GitHub](https://github.com/Cxyda/RayTracingDemo)
+>
+> Chapter project files : [Chapter 01](https://github.com/Cxyda/RayTracingDemo/commit/ba8242f9adb523fa11356774da350c726eee9dbb)
+
+---
+
+Read: [previous](/blog/raytracer/00/) | next (upcomming)
